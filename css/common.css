@@ -22,3 +22,18 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery {
+  display: grid;
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-image {
+  margin: 10px;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: auto;
+}
