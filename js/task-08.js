@@ -1,3 +1,4 @@
+//Pobieram dane z DOM
 const loginForm = document.querySelector(".login-form");
 
 loginForm.addEventListener("submit", (event) => {
@@ -15,7 +16,7 @@ loginForm.addEventListener("submit", (event) => {
     };
     consoleLog(dataForm);
 
-    //wymazuję wprowadzoną treść w polach poprzez reset
+    //Wymazuję wprowadzoną treść w polach poprzez reset
     loginForm.reset();
   }
 });
